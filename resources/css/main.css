@@ -64,7 +64,7 @@ header {
   text-align: right;
 }
 
-header .logo {
+.logo {
   float: left;
   width: 9.6rem;
   height: 9.6rem;
@@ -103,7 +103,7 @@ header h6 {
   cursor: default;
 }
 
-article.project {
+.project {
   margin-bottom: 1.5rem;
   border: solid 0.1rem #aaaaaa;
   -webkit-box-shadow: 0.2rem 0.2rem 0 rgba(0, 0, 0, 0.07);
@@ -117,7 +117,7 @@ article.project {
   cursor: default;
 }
 
-article.project:hover {
+.project:hover {
   -webkit-box-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.07);
   -moz-box-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.07);
   box-shadow: 0.4rem 0.4rem 0 rgba(0, 0, 0, 0.07);
@@ -128,7 +128,7 @@ article.project:hover {
   transform: translate(-0.2rem, -0.2rem);
 }
 
-article.project h3 {
+.project h3 {
   margin: 1rem 1rem 1.5rem 1rem;
   font-family: Roboto, sans-serif;
   font-size: 1.6rem;
@@ -136,7 +136,7 @@ article.project h3 {
   letter-spacing: 2px;
 }
 
-article.project h3:before {
+.project h3:before {
   content: '';
   position: absolute;
   left: 0;
@@ -146,7 +146,7 @@ article.project h3:before {
   background-color: #cdcdcd;
 }
 
-article.project h3 .fa-link {
+.project h3 .fa-link {
   float: right;
   color: #999999;
   -webkit-transition: all 0.2s ease-in-out;
@@ -156,11 +156,11 @@ article.project h3 .fa-link {
   transition: all 0.2s ease-in-out;
 }
 
-article.project h3 .fa-link:hover {
+.project h3 .fa-link:hover {
   color: #0a5bb3;
 }
 
-article.project p {
+.project p {
   font-size: 1.3rem;
   text-align: justify;
   padding: 0.5rem 1rem 1rem 1rem;
@@ -168,7 +168,7 @@ article.project p {
   color: #222222;
 }
 
-article.project img {
+.project img {
   width: 100%;
 }
 
